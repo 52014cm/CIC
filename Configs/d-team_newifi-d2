@@ -1841,7 +1841,7 @@ CONFIG_ZABBIX_POSTGRESQL=y
 # CONFIG_PACKAGE_valgrind is not set
 # end of Development
 
-#
+# 
 # Extra packages
 #
 CONFIG_PACKAGE_automount=y
