@@ -16,12 +16,13 @@
 case "${OP_Maintainer}/${OP_REPO_NAME}:${OP_BRANCH}" in
 coolsnowwolf/lede:master)
 	AddPackage git other AutoBuild-Packages Hyy2001X master
-	AddPackage svn other luci-app-smartdns kenzok8/openwrt-packages/trunk
+	AddPackage svn other 
 	AddPackage svn other luci-app-socat Lienol/openwrt-package/trunk
 	AddPackage svn other luci-app-eqos kenzok8/openwrt-packages/trunk
 	AddPackage git other OpenClash vernesong master
 	AddPackage git other luci-app-adblock-plus small-5 master
-	# AddPackage git other OpenAppFilter destan19 master
+	AddPackage git other openwrt-passwall xiaorouji main
+	AddPackage git other OpenAppFilter destan19 master
 	# AddPackage svn other luci-app-ddnsto linkease/nas-packages/trunk/luci
 	# AddPackage svn other ddnsto linkease/nas-packages/trunk/network/services
 	
