@@ -22,6 +22,7 @@ coolsnowwolf/lede:master)
 	AddPackage git other OpenClash vernesong master
 	AddPackage git other luci-app-adblock-plus small-5 master
 	AddPackage git other openwrt-passwall xiaorouji main
+	AddPackage git other luci-app-dnsfilter kiddin9 main
 	AddPackage git other OpenAppFilter destan19 master
 	# AddPackage svn other luci-app-ddnsto linkease/nas-packages/trunk/luci
 	# AddPackage svn other ddnsto linkease/nas-packages/trunk/network/services
