@@ -28,7 +28,7 @@ coolsnowwolf/lede:master)
 	# AddPackage svn other ddnsto linkease/nas-packages/trunk/network/services
 	
 	case "${TARGET_PROFILE}" in
-	asus_rt-acrh17 | d-team_newifi-d2 | xiaoyu_xy-c5)
+	CR660x | d-team_newifi-d2 | xiaomi_mi-router-3g)
 		AddPackage git other luci-app-usb3disable rufengsuixing master
 	;;
 	x86_64)
