@@ -45,7 +45,7 @@ Firmware-Diy() {
 
 	case "${TARGET_PROFILE}" in
 	 d-team_newifi-d2 | CR660x)
-		patch -i ${CustomFiles}/mac80211 package/kernel/mac80211/files/lib/wifi/mac80211.sh
+		patch -i ${CustomFiles}/mac80211.sh package/kernel/mac80211/files/lib/wifi/mac80211.sh
 		Copy ${CustomFiles}/system ${base_files}/etc/config system
 		[[ ${OP_REPO_NAME} == lede ]] && sed -i "/DEVICE_COMPAT_VERSION := 1.1/d" target/linux/ramips/image/mt7621.mk
 	;;
