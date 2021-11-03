@@ -13,8 +13,8 @@ Sync_List=(
 	# Configs/*
 	CustomFiles/Depends/*
 	CustomFiles/Patches/*
-	CustomFiles/mac80211_d-team_newifi-d2.patch
-	CustomFiles/system_d-team_newifi-d2
+	CustomFiles/mac80211.sh
+	CustomFiles/system
 	# Scripts/AutoBuild_DiyScript.sh
 	# Scripts/AutoBuild_ExtraPackages.sh
 	# Scripts/Sync.sh
