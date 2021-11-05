@@ -14,7 +14,7 @@
 
 ## e.g. 当前使用源码为 coolsnowwolf/lede:master 时添加下列软件包
 case "${OP_Maintainer}/${OP_REPO_NAME}:${OP_BRANCH}" in
-52014app/lede:master)
+coolsnowwolf/lede:master)
 	AddPackage git other AutoBuild-Packages Hyy2001X master
 	AddPackage svn other luci-app-pushbot zzsj0928 master
 	AddPackage svn other luci-app-socat Lienol/openwrt-package/trunk
