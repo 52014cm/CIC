@@ -16,7 +16,7 @@
 case "${OP_Maintainer}/${OP_REPO_NAME}:${OP_BRANCH}" in
 52014app/lede:master)
 	AddPackage git other AutoBuild-Packages Hyy2001X master
-	AddPackage svn other 
+	AddPackage svn other luci-app-pushbot zzsj0928 master
 	AddPackage svn other luci-app-socat Lienol/openwrt-package/trunk
 	AddPackage svn other luci-app-eqos kenzok8/openwrt-packages/trunk
 	AddPackage git other OpenClash vernesong master
