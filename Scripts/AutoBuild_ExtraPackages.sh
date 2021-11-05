@@ -29,7 +29,7 @@ coolsnowwolf/lede:master)
 	
 	case "${TARGET_PROFILE}" in
 	CR660x | d-team_newifi-d2 | xiaomi_mi-router-3g)
-		AddPackage git other luci-app-usb3disable rufengsuixing master
+		# AddPackage git other luci-app-usb3disable rufengsuixing master
 	;;
 	x86_64)
 		AddPackage git other openwrt-passwall xiaorouji main
