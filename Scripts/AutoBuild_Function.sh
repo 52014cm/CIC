@@ -178,7 +178,7 @@ Firmware-Diy_Main() {
 			}
 		;;
 		esac
-		[[ ! ${Argon_Skip} == 1 ]] && AddPackage git other luci-app-argon-config 52014cm master
+		[[ ! ${Argon_Skip} == 1 ]] && AddPackage git other luci-app-argon-config jerrykuku master
 	}
 	[[ -n ${Before_IP_Address} ]] && Default_LAN_IP="${Before_IP_Address}"
 	[[ -n ${Default_LAN_IP} && ${Default_LAN_IP} =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]] && {
