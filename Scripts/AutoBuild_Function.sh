@@ -151,25 +151,25 @@ Firmware-Diy_Main() {
 	[[ ${INCLUDE_Argon} == true ]] && {
 		case "${OP_Maintainer}/${OP_REPO_NAME}:${OP_BRANCH}" in
 		coolsnowwolf/lede:master)
-			AddPackage git lean luci-theme-argon jerrykuku 18.06
-		;;
+			AddPackage git lean luci-theme-argon 52014cm 18.06
+		;;jerrykuku
 		[Ll]ienol/openwrt:main)
-			AddPackage git other luci-theme-argon jerrykuku master
+			AddPackage git other luci-theme-argon 52014cm master
 		;;
 		[Ll]ienol/openwrt:19.07)
-			AddPackage git other luci-theme-argon jerrykuku v2.2.5
+			AddPackage git other luci-theme-argon 52014cm v2.2.5
 		;;
 		*)
 			[[ ! ${OP_Maintainer}/${OP_REPO_NAME} = immortalwrt/immortalwrt ]] && {
 				case "${OP_BRANCH}" in
 				19.07)
-					AddPackage git other luci-theme-argon jerrykuku v2.2.5
+					AddPackage git other luci-theme-argon 52014cm v2.2.5
 				;;
 				21.02)
-					AddPackage git other luci-theme-argon jerrykuku master
+					AddPackage git other luci-theme-argon 52014cm master
 				;;
 				18.06)
-					AddPackage git other luci-theme-argon jerrykuku 18.06
+					AddPackage git other luci-theme-argon 52014cm 18.06
 				;;
 				esac
 			} || {
@@ -178,7 +178,7 @@ Firmware-Diy_Main() {
 			}
 		;;
 		esac
-		[[ ! ${Argon_Skip} == 1 ]] && AddPackage git other luci-app-argon-config jerrykuku master
+		[[ ! ${Argon_Skip} == 1 ]] && AddPackage git other luci-app-argon-config 52014cm master
 	}
 	[[ -n ${Before_IP_Address} ]] && Default_LAN_IP="${Before_IP_Address}"
 	[[ -n ${Default_LAN_IP} && ${Default_LAN_IP} =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]] && {
