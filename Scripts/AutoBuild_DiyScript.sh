@@ -45,7 +45,7 @@ Firmware-Diy() {
 	esac
 
 	case "${TARGET_PROFILE}" in
-	d-team_newifi-d2 | xiaomi_mi-router-3g)
+	d-team_newifi-d2 | xiaomi_mi-router-3g | CR660x)
 		patch -i ${CustomFiles}/mac80211.sh package/kernel/mac80211/files/lib/wifi/mac80211.sh
 		Copy ${CustomFiles}/system ${base_files}/etc/config system
 	;;
